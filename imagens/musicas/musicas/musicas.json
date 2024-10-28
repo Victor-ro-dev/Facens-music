@@ -1,0 +1,40 @@
+{
+    "musicas": [
+        {
+            "titulo": "Bohemian Rhapsody",
+            "capa": "https://i.pinimg.com/originals/8d/e8/02/8de802b37a53b268dcc7d9b3c63712f8.jpg",
+            "autor": "Freddie Mercury",
+            "cantor_banda": "Queen",
+            "album_publicacao_cd": "A Night at the Opera",
+            "categoria": "Rock",
+            "faixa_do_album_cd": 5,
+            "duracao": "5:55",
+            "resenha": "Uma obra-prima do rock, combinando elementos de ópera e balada.",
+            "score": 5
+        },
+        {
+            "titulo": "Imagine",
+            "capa": "https://i.discogs.com/NF7u66Zp-6LyN1v60wyWjVGqJR0QdkTH_CH3UA_82Iw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NTQw/OTAtMTI5MDE3OTY4/Ny5qcGVn.jpeg",
+            "autor": "John Lennon",
+            "cantor_banda": "John Lennon",
+            "album_publicacao_cd": "Imagine",
+            "categoria": "Pop",
+            "faixa_do_album_cd": 1,
+            "duracao": "3:01",
+            "resenha": "Um hino pela paz e pela unidade mundial.",
+            "score": 5
+        },
+        {
+            "titulo": "Smells Like Teen Spirit",
+            "capa": "https://images-na.ssl-images-amazon.com/images/I/71+DSOWiBML._SL1041_.jpg",
+            "autor": "Kurt Cobain",
+            "cantor_banda": "Nirvana",
+            "album_publicacao_cd": "Nevermind",
+            "categoria": "Grunge",
+            "faixa_do_album_cd": 1,
+            "duracao": "5:01",
+            "resenha": "Um marco do movimento grunge, capturando a essência da geração dos anos 90.",
+            "score": 4
+        }
+    ]
+}

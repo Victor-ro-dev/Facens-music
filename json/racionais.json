@@ -1,0 +1,62 @@
+[
+    {
+        "titulo": "Capítulo 4, Versículo 3",
+        "capa": "https://i.ytimg.com/vi/0R70bz9lA34/maxresdefault.jpg",
+        "autor": "Racionais MC's",
+        "cantor_banda": "Racionais MC's",
+        "album": "Sobrevivendo no Inferno (1997)",
+        "categoria": "Rap Nacional",
+        "faixa": "1",
+        "duracao": "6:06",
+        "resenha": "Uma faixa que narra a realidade das periferias e o conflito com o sistema, trazendo uma abordagem crua e impactante.",
+        "score": 5
+    },
+    {
+        "titulo": "Diário de um Detento",
+        "capa": "https://i.ytimg.com/vi/YUFILSev-Fg/maxresdefault.jpg",
+        "autor": "Racionais MC's",
+        "cantor_banda": "Racionais MC's",
+        "album": "Sobrevivendo no Inferno (1997)",
+        "categoria": "Rap Nacional",
+        "faixa": "2",
+        "duracao": "7:29",
+        "resenha": "Inspirada em uma carta de um detento, esta faixa expõe a brutalidade do sistema prisional e a desigualdade social.",
+        "score": 5
+    },
+    {
+        "titulo": "Mágico de Oz",
+        "capa": "https://i.ytimg.com/vi/DUK0sEpkAV0/maxresdefault.jpg",
+        "autor": "Racionais MC's",
+        "cantor_banda": "Racionais MC's",
+        "album": "Nada Como um Dia Após o Outro Dia (2002)",
+        "categoria": "Rap Nacional",
+        "faixa": "6",
+        "duracao": "6:14",
+        "resenha": "Uma música reflexiva que compara a realidade de um jovem periférico com o conto de ficção, expondo os desafios enfrentados no dia a dia.",
+        "score": 4.5
+    },
+    {
+        "titulo": "Vida Loka Parte 1",
+        "capa": "https://i.ytimg.com/vi/LmdORgIRGzk/maxresdefault.jpg",
+        "autor": "Racionais MC's",
+        "cantor_banda": "Racionais MC's",
+        "album": "Nada Como um Dia Após o Outro Dia (2002)",
+        "categoria": "Rap Nacional",
+        "faixa": "2",
+        "duracao": "7:14",
+        "resenha": "Uma narrativa intensa sobre os altos e baixos da vida na periferia, com rimas que abordam a resistência e superação.",
+        "score": 5
+    },
+    {
+        "titulo": "Negro Drama",
+        "capa": "https://c-fa.cdn.smule.com/rs-s91/arr/a4/88/a9b6c4b4-b26c-448b-aab0-e0741f25f93c.jpg",
+        "autor": "Racionais MC's",
+        "cantor_banda": "Racionais MC's",
+        "album": "Nada Como um Dia Após o Outro Dia (2002)",
+        "categoria": "Rap Nacional",
+        "faixa": "1",
+        "duracao": "6:36",
+        "resenha": "Considerada um clássico, esta música reflete a luta e a identidade da população negra nas periferias brasileiras.",
+        "score": 5
+    }
+]

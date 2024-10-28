@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FacensMusic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="/imagens/icone_facens.webp" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid g-0">
+        <div class="row g-0 full-height">
+
+            <aside class="col-2 bg-dark border-end border-white border-opacity-50 position-fixed h-100 sticky-top">
+                <div class="ps-3 pt-3 pe-3 flex-column w-100 border-bottom border-white border-opacity-25"
+                    style="height: 250px;">
+                    <a class="ps-0 pt-1 pb-2 text-white h2 d-none d-xl-block rounded-4" href="/tempaltes/home.html">
+                        <p class="mb-0">FacensMusic</p>
+                    </a>
+
+                    <a class="d-block d-xl-none text-center d-flex justify-content-center" href="/tempaltes/home.html">
+                        <img class="" src="/imagens/icone_facens.webp" width="75" height="75" alt="Ícone FacensMusic">
+                    </a>
+                    <div class="mt-5">
+                        <a class="ps-2 pt-2 pb-2 text-white h4 d-none d-xl-block aside-link rounded-4"
+                            href="/tempaltes/categorias.html">
+                            <p class="mb-0"><i class="fa-solid fa-list fa-1x aside-icon"></i> Categorias</p>
+                        </a>
+                        <a class="d-block d-xl-none text-center text-white" href="/tempaltes/categorias.html">
+                            <i class="fa-solid fa-list fa-2x aside-icon"></i>
+                        </a>
+
+                        <a class="mt-4 ps-2 pt-2 pb-2 text-white h4 d-none d-xl-block aside-link rounded-4"
+                            href="/tempaltes/musicas/musicas.html">
+                            <p class="mb-0"><i class="fa-solid fa-music fa-1x aside-icon"></i> Músicas</p>
+                        </a>
+                        <a class="mt-4 d-block d-xl-none text-center text-white" href="/tempaltes/musicas/musicas.html">
+                            <i class="fa-solid fa-music fa-2x aside-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="col-10 offset-2 d-flex flex-column">
+                <header class="bg-black text-white">
+                    <nav class="navbar navbar-expand-lg bg-black border-bottom border-white border-opacity-25 sticky-top fixed-top"
+                        style="z-index: 1000;">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler bg-primary mb-3   " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item me-4">
+                                        <a class="nav-link text-white" href="/tempaltes/home.html">HOME</a>
+                                    </li>
+                                    <li class="nav-item me-4">
+                                        <a class="nav-link text-white" href="#">SOBRE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">CONTATO</a>
+                                    </li>
+                                </ul>
+
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Buscar"
+                                        aria-label="Search" style="max-width: 200px;">
+                                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+
+                <main class="bg-black h-100 text-center text-white">
+                    <p class="h1 text-white mt-3">Bandas</p>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h1>METÁLICA</h1>
+                                <div class="picture">
+                                    <a href="/tempaltes/musicas/musicas_metalica.html"><img
+                                            src="https://wallpaperset.com/w/full/7/9/f/144683.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h1>GUNS N´ ROSES</h1>
+                                <div class="picture">
+                                    <img src="https://wallpapercave.com/wp/wp1883296.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h1>LINKIN PARK</h1>
+                                <div class="picture">
+                                    <img src="https://images7.alphacoders.com/542/thumb-1920-542373.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+
+                        <!-- Botões de navegação -->
+                        <div class="swiper-button-next btn"></div>
+                        <div class="swiper-button-prev btn"></div>
+                    </div>
+                </main>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper.js"></script>
+</body>
+
+</html>
