@@ -180,6 +180,66 @@
             "duracao": "3:20",
             "resenha": "Com uma batida animada e ritmo acelerado, 'Tambor' destaca a celebração e o estilo de vida do funk, com letras vibrantes.",
             "score": 4
+        },
+        {
+            "titulo": "Deixa Eu Te Amar",
+            "capa": "https://i.ytimg.com/vi/xldFEvC-m-0/maxresdefault.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "1",
+            "duracao": "3:45",
+            "resenha": "Uma declaração de amor sincera, 'Deixa Eu Te Amar' é um clássico que fala sobre a busca pela felicidade ao lado da pessoa amada.",
+            "score": 4.5
+        },
+        {
+            "titulo": "Coração Radiante",
+            "capa": "https://is1-ssl.mzstatic.com/image/thumb/Video51/v4/fb/06/e8/fb06e8f3-1323-4328-3c19-1a8ac5302b7c/8864462032180101VIC.jpg/1200x630mv.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "2",
+            "duracao": "4:02",
+            "resenha": "Com uma melodia contagiante, 'Coração Radiante' fala sobre amor e a alegria de viver um romance.",
+            "score": 4.8
+        },
+        {
+            "titulo": "Gritar e Cantar",
+            "capa": "https://uploads.metropoles.com/wp-content/uploads/2020/04/11205320/Turma-do-Pagode-RED.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "3",
+            "duracao": "3:55",
+            "resenha": "Um hino à festa e à diversão, 'Gritar e Cantar' é a música perfeita para animar qualquer roda de pagode.",
+            "score": 4.7
+        },
+        {
+            "titulo": "Tô Com Saudade",
+            "capa": "https://i.ytimg.com/vi/_EKX571iAY8/maxresdefault.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "4",
+            "duracao": "4:30",
+            "resenha": "Expressando a dor da saudade, 'Tô Com Saudade' é uma balada emocionante que toca o coração de quem já amou.",
+            "score": 4.6
+        },
+        {
+            "titulo": "Ela É Sensacional",
+            "capa": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2022/09/12135433/turma-do-pagode.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "5",
+            "duracao": "3:35",
+            "resenha": "Com um ritmo contagiante, 'Ela É Sensacional' exalta a beleza e o charme de uma mulher incrível.",
+            "score": 4.9
         }
     ]
     
