@@ -51,9 +51,12 @@
 
             <div class="col-10 offset-2 d-flex flex-column">
                 <header class="bg-black text-white">
-                    <nav class="navbar navbar-expand-lg bg-black border-bottom border-white border-opacity-25 sticky-top fixed-top" style="z-index: 1000;">
+                    <nav class="navbar navbar-expand-lg bg-black border-bottom border-white border-opacity-25 sticky-top fixed-top"
+                        style="z-index: 1000;">
                         <div class="container-fluid">
-                            <button class="navbar-toggler bg-primary mb-3   " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler bg-primary mb-3   " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                                aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -68,9 +71,10 @@
                                         <a class="nav-link text-white" href="#">CONTATO</a>
                                     </li>
                                 </ul>
-                                
+
                                 <form class="d-flex" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="max-width: 200px;">
+                                    <input class="form-control me-2" type="search" placeholder="Buscar"
+                                        aria-label="Search" style="max-width: 200px;">
                                     <button class="btn btn-outline-primary" type="submit">Buscar</button>
                                 </form>
                             </div>
@@ -79,12 +83,12 @@
                 </header>
 
                 <main class="text-white flex-grow-1 bg-black text-white py-3">
-                    <div id="musica-hariel" class="d-flex justify-content-around mt-5">
-                        
+                    <p class="h1 text-center mb-4" id="genre-title"></p>
+                    <div class="text-center mb-4">
+                        <button id="ordenar-titulo" class="btn btn-primary">Ordenar A-Z</button>
                     </div>
-                    
+                    <div id="music-container" class="d-flex flex-wrap justify-content-around mb-5 ms-4 me-4"></div>
                 </main>
-                
             </div>
         </div>
     </div>
@@ -92,8 +96,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/swiper.js"></script>
-    <script src="/js/apresenta.js"></script>
+    <script src="/js/apresenta_dinamico.js"></script>
 </body>
 
 </html>

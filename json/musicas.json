@@ -1,0 +1,247 @@
+[
+    {
+      "titulo": "Battery",
+      "capa": "https://i.ytimg.com/vi/7HHetCsCPHo/hqdefault.jpg",
+      "autor": "Metallica",
+      "cantor_banda": "Metallica",
+      "album": "Master of Puppets (1986)",
+      "categoria": "rock",
+      "faixa": "1",
+      "duracao": "5:10",
+      "resenha": "Uma introdução explosiva com riffs agressivos, 'Battery' captura a essência do thrash metal e a luta interna de alguém consumido por seus próprios demônios.",
+      "score": 5
+    },
+    {
+      "titulo": "Master of Puppets",
+      "capa": "https://cdna.artstation.com/p/assets/images/images/004/167/206/large/ayoub-ziani-metallica-master-of-puppets.jpg?1480985627",
+      "autor": "Metallica",
+      "cantor_banda": "Metallica",
+      "album": "Master of Puppets (1986)",
+      "categoria": "rock",
+      "faixa": "2",
+      "duracao": "8:35",
+      "resenha": "A faixa-título é uma obra-prima que explora temas de manipulação e controle, combinando letras profundas com riffs icônicos.",
+      "score": 5
+    },
+    {
+      "titulo": "The Thing That Should Not Be",
+      "capa": "https://bravewords.com/medias-static/MetallicaThingPoster.jpg",
+      "autor": "Metallica",
+      "cantor_banda": "Metallica",
+      "album": "Master of Puppets (1986)",
+      "categoria": "rock",
+      "faixa": "3",
+      "duracao": "7:27",
+      "resenha": "Inspirada na obra de H.P. Lovecraft, esta faixa é sombria e pesada, abordando o tema do medo do desconhecido.",
+      "score": 4.5
+    },
+    {
+      "titulo": "Welcome Home (Sanitarium)",
+      "capa": "https://i.ytimg.com/vi/tI1Wd9eSoUk/maxresdefault.jpg",
+      "autor": "Metallica",
+      "cantor_banda": "Metallica",
+      "album": "Master of Puppets (1986)",
+      "categoria": "rock",
+      "faixa": "4",
+      "duracao": "6:30",
+      "resenha": "Uma poderosa reflexão sobre a opressão e a loucura, esta faixa combina uma introdução melódica com um refrão intenso.",
+      "score": 5
+    },
+    {
+      "titulo": "Disposable Heroes",
+      "capa": "https://i.pinimg.com/originals/7a/a1/31/7aa1319072513f723c76f9d0a8a82a91.jpg",
+      "autor": "Metallica",
+      "cantor_banda": "Metallica",
+      "album": "Master of Puppets (1986)",
+      "categoria": "rock",
+      "faixa": "5",
+      "duracao": "6:44",
+      "resenha": "Esta faixa aborda o tema da guerra e do desespero dos soldados, com uma energia intensa e letras incisivas.",
+      "score": 4.5
+    },
+
+        {
+            "titulo": "Capítulo 4, Versículo 3",
+            "capa": "https://i.ytimg.com/vi/0R70bz9lA34/maxresdefault.jpg",
+            "autor": "Racionais MC's",
+            "cantor_banda": "Racionais MC's",
+            "album": "Sobrevivendo no Inferno (1997)",
+            "categoria": "rap",
+            "faixa": "1",
+            "duracao": "6:06",
+            "resenha": "Uma faixa que narra a realidade das periferias e o conflito com o sistema, trazendo uma abordagem crua e impactante.",
+            "score": 5
+        },
+        {
+            "titulo": "Diário de um Detento",
+            "capa": "https://i.ytimg.com/vi/YUFILSev-Fg/maxresdefault.jpg",
+            "autor": "Racionais MC's",
+            "cantor_banda": "Racionais MC's",
+            "album": "Sobrevivendo no Inferno (1997)",
+            "categoria": "rap",
+            "faixa": "2",
+            "duracao": "7:29",
+            "resenha": "Inspirada em uma carta de um detento, esta faixa expõe a brutalidade do sistema prisional e a desigualdade social.",
+            "score": 5
+        },
+        {
+            "titulo": "Mágico de Oz",
+            "capa": "https://i.ytimg.com/vi/DUK0sEpkAV0/maxresdefault.jpg",
+            "autor": "Racionais MC's",
+            "cantor_banda": "Racionais MC's",
+            "album": "Nada Como um Dia Após o Outro Dia (2002)",
+            "categoria": "rap",
+            "faixa": "6",
+            "duracao": "6:14",
+            "resenha": "Uma música reflexiva que compara a realidade de um jovem periférico com o conto de ficção, expondo os desafios enfrentados no dia a dia.",
+            "score": 4.5
+        },
+        {
+            "titulo": "Vida Loka Parte 1",
+            "capa": "https://i.ytimg.com/vi/LmdORgIRGzk/maxresdefault.jpg",
+            "autor": "Racionais MC's",
+            "cantor_banda": "Racionais MC's",
+            "album": "Nada Como um Dia Após o Outro Dia (2002)",
+            "categoria": "rap",
+            "faixa": "2",
+            "duracao": "7:14",
+            "resenha": "Uma narrativa intensa sobre os altos e baixos da vida na periferia, com rimas que abordam a resistência e superação.",
+            "score": 5
+        },
+        {
+            "titulo": "Negro Drama",
+            "capa": "https://c-fa.cdn.smule.com/rs-s91/arr/a4/88/a9b6c4b4-b26c-448b-aab0-e0741f25f93c.jpg",
+            "autor": "Racionais MC's",
+            "cantor_banda": "Racionais MC's",
+            "album": "Nada Como um Dia Após o Outro Dia (2002)",
+            "categoria": "rap",
+            "faixa": "1",
+            "duracao": "6:36",
+            "resenha": "Considerada um clássico, esta música reflete a luta e a identidade da população negra nas periferias brasileiras.",
+            "score": 5
+        },
+    
+        {
+            "titulo": "Mente de Vilão",
+            "capa": "https://i.ytimg.com/vi/ZlzEXb4VTk0/maxresdefault.jpg",
+            "autor": "MC Hariel",
+            "cantor_banda": "MC Hariel",
+            "album": "Avisa Que É o Funk (2018)",
+            "categoria": "Funk",
+            "faixa": "2",
+            "duracao": "3:34",
+            "resenha": "Uma faixa envolvente que narra a mentalidade de alguém que vive em um mundo de desafios e superações, com um ritmo contagiante.",
+            "score": 4.5
+        },
+        {
+            "titulo": "Vida de Muleque",
+            "capa": "https://i.ytimg.com/vi/drS58oOX5bA/maxresdefault.jpg",
+            "autor": "MC Hariel",
+            "cantor_banda": "MC Hariel",
+            "album": "Mundão Girou (2019)",
+            "categoria": "Funk",
+            "faixa": "1",
+            "duracao": "4:01",
+            "resenha": "Com uma letra que fala da vida de jovens nas periferias, a música combina uma batida marcante com rimas sobre sonhos e dificuldades.",
+            "score": 4
+        },
+        {
+            "titulo": "Ilusão (Cracolândia)",
+            "capa": "https://static.qobuz.com/images/covers/6b/cu/f4kt1uoqhcu6b_600.jpg",
+            "autor": "MC Hariel",
+            "cantor_banda": "MC Hariel, MC Davi, Salvador da Rima",
+            "album": "Single",
+            "categoria": "Funk Consciente",
+            "faixa": "N/A",
+            "duracao": "5:14",
+            "resenha": "Uma música impactante que fala sobre as armadilhas da vida e os perigos das drogas, oferecendo uma mensagem de conscientização.",
+            "score": 5
+        },
+        {
+            "titulo": "Mundão Girou",
+            "capa": "https://akamai.sscdn.co/uploadfile/letras/albuns/e/9/3/2/1232651643034613.jpg",
+            "autor": "MC Hariel",
+            "cantor_banda": "MC Hariel",
+            "album": "Mundão Girou (2019)",
+            "categoria": "Funk",
+            "faixa": "3",
+            "duracao": "3:48",
+            "resenha": "A faixa fala sobre as voltas da vida e o sucesso após enfrentar dificuldades, trazendo uma mensagem de esperança e superação.",
+            "score": 4.5
+        },
+        {
+            "titulo": "Tambor",
+            "capa": "https://www.deezer-blog.com/assets/sites/8/2021/11/mc-hariel-discografia-768x512.jpg",
+            "autor": "MC Hariel",
+            "cantor_banda": "MC Hariel, MC Ryan SP",
+            "album": "Single",
+            "categoria": "Funk",
+            "faixa": "N/A",
+            "duracao": "3:20",
+            "resenha": "Com uma batida animada e ritmo acelerado, 'Tambor' destaca a celebração e o estilo de vida do funk, com letras vibrantes.",
+            "score": 4
+        },
+        {
+            "titulo": "Deixa Eu Te Amar",
+            "capa": "https://i.ytimg.com/vi/xldFEvC-m-0/maxresdefault.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "1",
+            "duracao": "3:45",
+            "resenha": "Uma declaração de amor sincera, 'Deixa Eu Te Amar' é um clássico que fala sobre a busca pela felicidade ao lado da pessoa amada.",
+            "score": 4.5
+        },
+        {
+            "titulo": "Coração Radiante",
+            "capa": "https://is1-ssl.mzstatic.com/image/thumb/Video51/v4/fb/06/e8/fb06e8f3-1323-4328-3c19-1a8ac5302b7c/8864462032180101VIC.jpg/1200x630mv.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "2",
+            "duracao": "4:02",
+            "resenha": "Com uma melodia contagiante, 'Coração Radiante' fala sobre amor e a alegria de viver um romance.",
+            "score": 4.8
+        },
+        {
+            "titulo": "Gritar e Cantar",
+            "capa": "https://uploads.metropoles.com/wp-content/uploads/2020/04/11205320/Turma-do-Pagode-RED.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "3",
+            "duracao": "3:55",
+            "resenha": "Um hino à festa e à diversão, 'Gritar e Cantar' é a música perfeita para animar qualquer roda de pagode.",
+            "score": 4.7
+        },
+        {
+            "titulo": "Tô Com Saudade",
+            "capa": "https://i.ytimg.com/vi/_EKX571iAY8/maxresdefault.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "4",
+            "duracao": "4:30",
+            "resenha": "Expressando a dor da saudade, 'Tô Com Saudade' é uma balada emocionante que toca o coração de quem já amou.",
+            "score": 4.6
+        },
+        {
+            "titulo": "Ela É Sensacional",
+            "capa": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2022/09/12135433/turma-do-pagode.jpg",
+            "autor": "Turma do Pagode",
+            "cantor_banda": "Turma do Pagode",
+            "album": "Ao Vivo em São Paulo",
+            "categoria": "pagode",
+            "faixa": "5",
+            "duracao": "3:35",
+            "resenha": "Com um ritmo contagiante, 'Ela É Sensacional' exalta a beleza e o charme de uma mulher incrível.",
+            "score": 4.9
+        }
+    ]
+    
+  
+
