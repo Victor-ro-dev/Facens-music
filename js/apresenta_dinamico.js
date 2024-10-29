@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         };
 
         const swiperWrapper = document.querySelector("#swiper-bands .swiper-wrapper");
-        swiperWrapper.innerHTML = ''; // Limpa o conteúdo existente
+        swiperWrapper.innerHTML = ''; 
 
         if (bandsData[genre]) {
             bandsData[genre].forEach(band => {
@@ -154,7 +154,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.error(`Gênero '${genre}' não encontrado!`);
         }
 
-        // Inicializa o Swiper
         var swiper = new Swiper(".swiper-container", {
             effect: "coverflow",
             centeredSlides: true,
@@ -174,12 +173,9 @@ document.addEventListener("DOMContentLoaded", async () => {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev"
             },
-            grabCursor: false,
-            touchRatio: 0 // Configurando para não permitir arrastar
         });
     }
 
-    // Carrega as músicas e cria o Swiper
     await loadAndDisplayMusic();
     if (genre) {
         createSwiperByGenre(genre);
