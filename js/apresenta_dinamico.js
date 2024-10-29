@@ -5,21 +5,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Exibe o nome do gênero na página
     const genreTitle = document.getElementById("genre-title");
-    genreTitle.textContent = genre ? `Músicas de ${genre}` : "Todas as Músicas";
+    genreTitle.textContent = genre ? `Músicas de ${genre.charAt(0).toUpperCase() + genre.slice(1)}` : "Todas as Músicas";
 
     // Função para carregar e filtrar o JSON das músicas
     async function loadAndDisplayMusic() {
         try {
-            // Carrega o JSON de músicas
             const response = await fetch("/json/musicas.json");
             const musics = await response.json();
 
-            // Filtra as músicas pela categoria do gênero, se definido
-            const filteredMusics = genre 
+            const filteredMusics = genre
                 ? musics.filter(music => music.categoria.toLowerCase() === genre.toLowerCase())
                 : musics; // Se não houver gênero, mostra todas as músicas
 
-            // Adiciona os cards das músicas filtradas
             const musicContainer = document.getElementById("music-container");
             musicContainer.innerHTML = ''; // Limpa o container antes de adicionar novas músicas
 
@@ -65,17 +62,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         cards.forEach(card => musicContainer.appendChild(card));
     }
 
-    // Carrega e exibe as músicas filtradas pela categoria
-    await loadAndDisplayMusic();
-
-    // Adiciona o evento de click para o botão de ordenar
-    document.getElementById("ordenar-titulo").addEventListener("click", sortMusicsAlphabetically);
-});
-
-document.addEventListener("DOMContentLoaded", () => {
     // Função para criar Swiper com base no gênero
     function createSwiperByGenre(genre) {
-        // Dados de exemplo das bandas
         const bandsData = {
             rock: [
                 {
@@ -94,64 +82,62 @@ document.addEventListener("DOMContentLoaded", () => {
                     link: "#"
                 }
             ],
-            pagode: [
-                {
-                    nome: "TURMA DO PAGODE",
-                    imagem: "https://via.placeholder.com/300x200?text=Turma+do+Pagode",
-                    link: "/tempaltes/musicas/musicas_geral.html?genre=pagode"
-                },
-                {
-                    nome: "EXALTASAMBA",
-                    imagem: "https://via.placeholder.com/300x200?text=Exaltasamba",
-                    link: "#"
-                },
-                {
-                    nome: "SOUZA",
-                    imagem: "https://via.placeholder.com/300x200?text=Souza",
-                    link: "#"
-                }
-            ],
-            hiphop: [
-                {
-                    nome: "TURMA DO PAGODE",
-                    imagem: "https://via.placeholder.com/300x200?text=Turma+do+Pagode",
-                    link: "/tempaltes/musicas/musicas_geral.html?genre=hip-hop"
-                },
-                {
-                    nome: "EXALTASAMBA",
-                    imagem: "https://via.placeholder.com/300x200?text=Exaltasamba",
-                    link: "#"
-                },
-                {
-                    nome: "SOUZA",
-                    imagem: "https://via.placeholder.com/300x200?text=Souza",
-                    link: "#"
-                }
-            ],
             funk: [
                 {
-                    nome: "TURMA DO PAGODE",
-                    imagem: "https://via.placeholder.com/300x200?text=Turma+do+Pagode",
+                    nome: "MC HARIEL",
+                    imagem: "https://sobrefunk.com/wp-content/uploads/2020/12/hariel-poltrona-01.jpg",
                     link: "/tempaltes/musicas/musicas_geral.html?genre=funk"
                 },
                 {
-                    nome: "EXALTASAMBA",
-                    imagem: "https://via.placeholder.com/300x200?text=Exaltasamba",
+                    nome: "MC DALESTE",
+                    imagem: "https://s2.sscdn.co/uploadfile/letras/fotos/b/5/b/e/b5bee534a2a3f46dc858556d6fdb4fbf.jpg",
                     link: "#"
                 },
                 {
-                    nome: "SOUZA",
-                    imagem: "https://via.placeholder.com/300x200?text=Souza",
+                    nome: "MC GUIME",
+                    imagem: "https://portalpopline.com.br/wp-content/uploads/2022/10/MC-Guime-Foto-julianapeduttifotografia-Divulgacao.jpg",
+                    link: "#"
+                }
+            ],
+            pagode: [
+                {
+                    nome: "TURMA DO PAGODE",
+                    imagem: "https://akamai.sscdn.co/uploadfile/letras/albuns/b/3/0/0/228381441134930.jpg",
+                    link: "/tempaltes/musicas/musicas_geral.html?genre=pagode"
+                },
+                {
+                    nome: "PÉRICLES",
+                    imagem: "https://lorena.r7.com/public/assets/img/galeria-imagens/lorena64df938ee1f0f.webp",
+                    link: "#"
+                },
+                {
+                    nome: "THIAGUINHO",
+                    imagem: "https://www.joaoalberto.com/wp-content/uploads/2017/01/12/thiaguinho-tardezinha.jpg",
+                    link: "#"
+                }
+            ],
+            rap: [
+                {
+                    nome: "RACIONAIS",
+                    imagem: "https://wallpapercave.com/wp/wp2220583.jpg",
+                    link: "/tempaltes/musicas/musicas_geral.html?genre=rap"
+                },
+                {
+                    nome: "MV BILL",
+                    imagem: "https://web.portalsucesso.com.br/wp-content/uploads/2023/07/mv-bill-capa-1.png",
+                    link: "#"
+                },
+                {
+                    nome: "LEALL",
+                    imagem: "https://midias.correiobraziliense.com.br/_midias/jpg/2023/12/13/2aljncx17mnyjttmh5jkamwzcyj581q3gvptn6ej3n1sujt1lqdwpuulbknayj8j2gju4jpngiqvrclrwhawreprw3g6y__gn2nwhgaqfb0fb31wxad1xypscpig7yvrmijfq4fbyaappfo9qmec0w-33259890.jpeg",
                     link: "#"
                 }
             ]
-
         };
 
         const swiperWrapper = document.querySelector("#swiper-bands .swiper-wrapper");
         swiperWrapper.innerHTML = ''; // Limpa o conteúdo existente
 
-        // Verifica se o gênero existe nos dados
         if (bandsData[genre]) {
             bandsData[genre].forEach(band => {
                 const slide = document.createElement("div");
@@ -188,13 +174,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev"
             },
-            // Desabilitando o arrasto com o mouse
             grabCursor: false,
             touchRatio: 0 // Configurando para não permitir arrastar
         });
     }
 
-    // Exemplo de uso da função
-    createSwiperByGenre('rock'); // Substitua 'rock' pelo gênero desejado
+    // Carrega as músicas e cria o Swiper
+    await loadAndDisplayMusic();
+    if (genre) {
+        createSwiperByGenre(genre);
+    } else {
+        console.error("Gênero não especificado na URL.");
+    }
 });
-
