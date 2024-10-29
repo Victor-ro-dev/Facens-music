@@ -71,3 +71,130 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Adiciona o evento de click para o botão de ordenar
     document.getElementById("ordenar-titulo").addEventListener("click", sortMusicsAlphabetically);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Função para criar Swiper com base no gênero
+    function createSwiperByGenre(genre) {
+        // Dados de exemplo das bandas
+        const bandsData = {
+            rock: [
+                {
+                    nome: "METÁLICA",
+                    imagem: "https://wallpaperset.com/w/full/7/9/f/144683.jpg",
+                    link: "/tempaltes/musicas/musicas_geral.html?genre=rock"
+                },
+                {
+                    nome: "GUNS N´ ROSES",
+                    imagem: "https://wallpapercave.com/wp/wp1883296.png",
+                    link: "#"
+                },
+                {
+                    nome: "LINKIN PARK",
+                    imagem: "https://images7.alphacoders.com/542/thumb-1920-542373.png",
+                    link: "#"
+                }
+            ],
+            pagode: [
+                {
+                    nome: "TURMA DO PAGODE",
+                    imagem: "https://via.placeholder.com/300x200?text=Turma+do+Pagode",
+                    link: "/tempaltes/musicas/musicas_geral.html?genre=pagode"
+                },
+                {
+                    nome: "EXALTASAMBA",
+                    imagem: "https://via.placeholder.com/300x200?text=Exaltasamba",
+                    link: "#"
+                },
+                {
+                    nome: "SOUZA",
+                    imagem: "https://via.placeholder.com/300x200?text=Souza",
+                    link: "#"
+                }
+            ],
+            hiphop: [
+                {
+                    nome: "TURMA DO PAGODE",
+                    imagem: "https://via.placeholder.com/300x200?text=Turma+do+Pagode",
+                    link: "/tempaltes/musicas/musicas_geral.html?genre=hip-hop"
+                },
+                {
+                    nome: "EXALTASAMBA",
+                    imagem: "https://via.placeholder.com/300x200?text=Exaltasamba",
+                    link: "#"
+                },
+                {
+                    nome: "SOUZA",
+                    imagem: "https://via.placeholder.com/300x200?text=Souza",
+                    link: "#"
+                }
+            ],
+            funk: [
+                {
+                    nome: "TURMA DO PAGODE",
+                    imagem: "https://via.placeholder.com/300x200?text=Turma+do+Pagode",
+                    link: "/tempaltes/musicas/musicas_geral.html?genre=funk"
+                },
+                {
+                    nome: "EXALTASAMBA",
+                    imagem: "https://via.placeholder.com/300x200?text=Exaltasamba",
+                    link: "#"
+                },
+                {
+                    nome: "SOUZA",
+                    imagem: "https://via.placeholder.com/300x200?text=Souza",
+                    link: "#"
+                }
+            ]
+
+        };
+
+        const swiperWrapper = document.querySelector("#swiper-bands .swiper-wrapper");
+        swiperWrapper.innerHTML = ''; // Limpa o conteúdo existente
+
+        // Verifica se o gênero existe nos dados
+        if (bandsData[genre]) {
+            bandsData[genre].forEach(band => {
+                const slide = document.createElement("div");
+                slide.className = "swiper-slide";
+                slide.innerHTML = `
+                    <h1>${band.nome}</h1>
+                    <div class="picture">
+                        <a href="${band.link}"><img src="${band.imagem}" alt="${band.nome}"></a>
+                    </div>
+                `;
+                swiperWrapper.appendChild(slide);
+            });
+        } else {
+            console.error(`Gênero '${genre}' não encontrado!`);
+        }
+
+        // Inicializa o Swiper
+        var swiper = new Swiper(".swiper-container", {
+            effect: "coverflow",
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 20,
+                stretch: 0,
+                depth: 350,
+                modifier: 1,
+                slideShadows: true
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            // Desabilitando o arrasto com o mouse
+            grabCursor: false,
+            touchRatio: 0 // Configurando para não permitir arrastar
+        });
+    }
+
+    // Exemplo de uso da função
+    createSwiperByGenre('rock'); // Substitua 'rock' pelo gênero desejado
+});
+
