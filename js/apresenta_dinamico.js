@@ -40,6 +40,9 @@ document.addEventListener("DOMContentLoaded", async () => {
                 `;
                 musicContainer.appendChild(card);
             });
+
+            document.getElementById("ordenar-titulo").addEventListener("click", sortMusicsAlphabetically);
+            
         } catch (error) {
             console.error("Erro ao carregar o JSON das músicas:", error);
         }
@@ -174,12 +177,15 @@ document.addEventListener("DOMContentLoaded", async () => {
                 prevEl: ".swiper-button-prev"
             },
         });
+        
+       
     }
 
     await loadAndDisplayMusic();
     if (genre) {
         createSwiperByGenre(genre);
-    } else {
-        console.error("Gênero não especificado na URL.");
-    }
+    } 
+document.getElementById("ordenar-titulo").addEventListener("click", sortMusicsAlphabetically);
 });
+
+
