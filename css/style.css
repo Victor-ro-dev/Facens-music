@@ -19,6 +19,9 @@ p {
 a{  
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .full-height {
     height: 100vh;
